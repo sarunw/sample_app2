@@ -8,6 +8,7 @@ module SessionsHelper
   end
 
   def signed_in?
+    # if no local var define it will show instance var
     !current_user.nil?
   end
 
